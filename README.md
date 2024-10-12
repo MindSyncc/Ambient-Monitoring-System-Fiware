@@ -46,17 +46,18 @@ Esquema geral do fluxo
                                                                                  MongoDB
 
 <h3>Inicializando o projeto</h3>
-<h5>Postman</h5>
+
+<h4>Postman</h4>
 Para inicializar o projeto abra a Collection do postman no navegador de sua preferência ou pelo aplicativo Postman, dentro, primeiro é preciso executar as requisições 2, 3 e 4 da pasta Iot Agent MQTT, isto irá provisionar um grupo de serviço para o MQTT, um monitor de ambiente e registrar os comandos do monitor de ambiente (para ligar e desligar o Led OnBoard do ESP32), depois, para garantir a obtenção dos dados históricos, executar a requisição 2 da pasta STH-Comet
 
-<h5>Wokwi</h5>
+<h4>Wokwi</h4>
 
 depois de ter configurado o dispositivo no Postman depois apenas basta inicializar o simulador Wokwi que os dados já deverão estar disponíveis para obtenção.
 <p>Segue link do simulador Wokwi: https://wokwi.com/projects/411382500948043777</p>
 
-<h3>Dashboard</h3>
-
-O dashboard proporciona os dados históricos do simulador Wokwi, estes dados são atualizados cada certo tempo portanto obtemos uma fonte gráfica de informações bastante dinâmica.
+<h4>Dashboard</h4>
+O dashboard em Dash exibe dados de luminosidade, temperatura e umidade de uma API usando STH-Comet. Ele faz requisições periódicas a cada 10 segundos para recuperar os dados mais recentes e os converte para o fuso horário de Lisboa. As informações são apresentadas em três gráficos interativos: um para cada tipo de dado. O código utiliza a biblioteca Plotly para criar os gráficos, e a lógica de atualização é gerenciada por callbacks, permitindo que os dados sejam atualizados automaticamente conforme chegam ao sistema.
+Você pode acessar o dashboard depois de ter feito os passos anteriores.  
 
 <p>Segue link do dashboard: http://0.0.0.0:8051/</p>
 
