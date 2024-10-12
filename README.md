@@ -65,6 +65,10 @@ Você pode acessar o dashboard depois de ter feito os passos anteriores.
 Você pode observar todo o processo visualmente além de ter uma explicação a mais sobre o projeto no vídeo feito por nós no Youtube a seguir:
 <p>https://www.youtube.com/watch?v=M-Qa6xwlGOk</p>
 
+<h4>Considerações Finais:</h4>
+
+o servidor utilizado para funcionamento da plataforma já está corretamente configurado pela nossa equipe, restando como tarefa para o usuário apenas a configuração do dispositivo, você sempre pode fazer um Health Check do servidor através da Collection do Postman, ou contatar a nossa equipe para verificar a integridade do servidor, este projeto foi feito pela equipe MindSync e guiado e orientado pelo professor Fábio Henrique Cabrini.
+
 
 
 
