@@ -8,7 +8,7 @@ import pytz
 from collections import defaultdict
 
 # Constants for IP and port
-IP_ADDRESS = "20.206.249.58"
+IP_ADDRESS = "xx.xxx.xxx.xx"
 PORT_STH = 8666
 DASH_HOST = "0.0.0.0"  # Allow access from any IP
 
