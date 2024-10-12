@@ -45,7 +45,25 @@ Esquema geral do fluxo
                                                                                    |
                                                                                  MongoDB
 
-<img src=''>
+<h3>Inicializando o projeto</h3>
+<h5>Postman</h5>
+Para inicializar o projeto abra a Collection do postman no navegador de sua preferência ou pelo aplicativo Postman, dentro, primeiro é preciso executar as requisições 2, 3 e 4 da pasta Iot Agent MQTT, isto irá provisionar um grupo de serviço para o MQTT, um monitor de ambiente e registrar os comandos do monitor de ambiente (para ligar e desligar o Led OnBoard do ESP32), depois, para garantir a obtenção dos dados históricos, executar a requisição 2 da pasta STH-Comet
+
+<h5>Wokwi</h5>
+
+depois de ter configurado o dispositivo no Postman depois apenas basta inicializar o simulador Wokwi que os dados já deverão estar disponíveis para obtenção.
+<p>Segue link do simulador Wokwi: https://wokwi.com/projects/411382500948043777</p>
+
+<h3>Dashboard</h3>
+
+O dashboard proporciona os dados históricos do simulador Wokwi, estes dados são atualizados cada certo tempo portanto obtemos uma fonte gráfica de informações bastante dinâmica.
+
+<p>Segue link do dashboard: http://0.0.0.0:8051/</p>
+
+<h3>Vídeo explicativo</h3>
+Você pode observar todo o processo visualmente além de ter uma explicação a mais sobre o projeto no vídeo feito por nós no Youtube a seguir:
+<p>https://www.youtube.com/watch?v=M-Qa6xwlGOk</p>
+
 
 
 
