@@ -38,7 +38,8 @@ MongoDB é o banco de dados utilizado pelo Orion Context Broker e pelo STH-Comet
 O contêiner Broker MQTT recebe as mensagens publicadas pelos sensores do ESP32. Ele gerencia a comunicação entre os dispositivos IoT e o IoT Agent MQTT, permitindo que os dados sejam transmitidos de forma eficiente no sistema.
 
 <h4>Vamos ver um esquema do processo de envio/recebimento dos dados</h4>
-Esquema geral do fluxo
+
+### Esquema geral do fluxo
 
     ESP32 (sensores) ---> Mosquitto (MQTT Broker) --->  IoT Agent (MQTT to NGSI) ---> Orion Context Broker (Dados em tempo real)    
                                                                                    |
