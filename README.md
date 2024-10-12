@@ -47,6 +47,10 @@ Esquema geral do fluxo
 
 <h3>Inicializando o projeto</h3>
 
+O servidor utilizado para funcionamento da plataforma já está corretamente configurado pela nossa equipe, restando como tarefa para o usuário apenas a configuração do dispositivo, você sempre pode fazer um Health Check do servidor através da Collection do Postman, ou contatar a nossa equipe para verificar a integridade do servidor
+
+<h4> Requisitos: </h4>
+
 <h4>Postman</h4>
 Para inicializar o projeto abra a Collection do postman no navegador de sua preferência ou pelo aplicativo Postman, dentro, primeiro é preciso executar as requisições 2, 3 e 4 da pasta Iot Agent MQTT, isto irá provisionar um grupo de serviço para o MQTT, um monitor de ambiente e registrar os comandos do monitor de ambiente (para ligar e desligar o Led OnBoard do ESP32), depois, para garantir a obtenção dos dados históricos, executar a requisição 2 da pasta STH-Comet
 
@@ -59,7 +63,7 @@ depois de ter configurado o dispositivo no Postman depois apenas basta inicializ
 O dashboard em Dash exibe dados de luminosidade, temperatura e umidade de uma API usando STH-Comet. Ele faz requisições periódicas a cada 10 segundos para recuperar os dados mais recentes e os converte para o fuso horário de Lisboa. As informações são apresentadas em três gráficos interativos: um para cada tipo de dado. O código utiliza a biblioteca Plotly para criar os gráficos, e a lógica de atualização é gerenciada por callbacks, permitindo que os dados sejam atualizados automaticamente conforme chegam ao sistema.
 Você pode acessar o dashboard depois de ter feito os passos anteriores.  
 
-<p>Segue link do dashboard: http://0.0.0.0:8051/</p>
+<p>Segue link do dashboard: http://20.206.249.58:8051/</p>
 
 <h3>Vídeo explicativo</h3>
 Você pode observar todo o processo visualmente além de ter uma explicação a mais sobre o projeto no vídeo feito por nós no Youtube a seguir:
@@ -67,7 +71,8 @@ Você pode observar todo o processo visualmente além de ter uma explicação a 
 
 <h4>Considerações Finais:</h4>
 
-o servidor utilizado para funcionamento da plataforma já está corretamente configurado pela nossa equipe, restando como tarefa para o usuário apenas a configuração do dispositivo, você sempre pode fazer um Health Check do servidor através da Collection do Postman, ou contatar a nossa equipe para verificar a integridade do servidor, este projeto foi feito pela equipe MindSync e guiado e orientado pelo professor Fábio Henrique Cabrini.
+O sistema de monitoramento ambiental com FIWARE permite a coleta, o processamento e a visualização de dados em tempo real de maneira robusta e eficiente. O projeto foi desenvolvido pela equipe MindSync sob orientação do professor Fábio Henrique Cabrini. Para mais informações ou dúvidas, consulte a documentação ou entre em contato com a equipe.
+
 
 
 
