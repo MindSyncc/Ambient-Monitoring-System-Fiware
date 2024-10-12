@@ -63,7 +63,7 @@ depois de ter configurado o dispositivo no Postman depois apenas basta inicializ
 <p>Segue link do simulador Wokwi: https://wokwi.com/projects/411382500948043777</p>
 
 <h4>Dashboard</h4>
-O dashboard em Dash exibe dados de luminosidade, temperatura e umidade de uma API usando STH-Comet. Ele faz requisições periódicas a cada 10 segundos para recuperar os dados mais recentes e os converte para o fuso horário de Lisboa. As informações são apresentadas em três gráficos interativos: um para cada tipo de dado. O código utiliza a biblioteca Plotly para criar os gráficos, e a lógica de atualização é gerenciada por callbacks, permitindo que os dados sejam atualizados automaticamente conforme chegam ao sistema.
+O dashboard feito com <a href="https://dash.plotly.com/">Dash</a> exibe dados de luminosidade, temperatura e umidade de uma API usando STH-Comet. Ele faz requisições periódicas a cada 10 segundos para recuperar os dados mais recentes e os converte para o fuso horário de Lisboa. As informações são apresentadas em três gráficos interativos: um para cada tipo de dado. O código utiliza a biblioteca Plotly para criar os gráficos, e a lógica de atualização é gerenciada por callbacks, permitindo que os dados sejam atualizados automaticamente conforme chegam ao sistema.
 Você pode acessar o dashboard depois de ter feito os passos anteriores.  
 
 <p>Segue link do dashboard: http://20.206.249.58:8051/</p>
