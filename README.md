@@ -12,7 +12,8 @@ Este projeto implementa um sistema de monitoramento de ambiente usando um ESP32 
 * Breadboard (opcional): Para uma conexão menos concentrada dos sensores com o ESP32.
 
 <h3>Software</h3>
-O núcleo do projeto está hospedado em uma máquina virtual no Microsoft Azure, e utiliza a plataforma FIWARE, especificamente uma versão modificada chamada FIWARE Descomplicado, criada pelo professor Fábio Henrique Cabrini e sua equipe. Esta plataforma facilita a integração e gerenciamento de dispositivos IoT em um ambiente FIWARE, utilizando vários serviços contidos em diferentes contêineres Docker. Segue link da documentação detalhada da versão do Fiware utilizada:
+O núcleo do projeto está hospedado em uma máquina virtual no Microsoft Azure, e utiliza a plataforma FIWARE, especificamente uma versão modificada chamada FIWARE Descomplicado, criada pelo professor Fábio Henrique Cabrini e sua equipe. Esta plataforma facilita a integração e gerenciamento de dispositivos IoT em um ambiente FIWARE, utilizando vários serviços contidos em diferentes contêineres Docker.
+<p>Segue link da documentação detalhada da versão do Fiware utilizada:</p>
 <p>https://github.com/fabiocabrini/fiware</p>
 GitHub do criador (Fábio Henrique Cabrini):
 <p>https://github.com/fabiocabrini/</p>
