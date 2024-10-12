@@ -30,7 +30,7 @@ O contêiner do Orion gerencia todo o ciclo de vida das entidades no sistema, co
 
 O contêiner STH-Comet armazena dados históricos das entidades, permitindo a consulta de séries temporais das leituras dos sensores. Toda vez que os dados de um sensor são atualizados no Orion, o STH-Comet é notificado e armazena essas alterações no MongoDB.
 
-<h4>Mongo Db</h4>
+<h4>MongoDb</h4>
 
 MongoDB é o banco de dados utilizado pelo Orion Context Broker e pelo STH-Comet. Ele armazena tanto o estado atual das entidades (por exemplo, as leituras atuais dos sensores) quanto o histórico de todas as mudanças dos atributos, tornando os dados disponíveis para consulta posterior.
 
