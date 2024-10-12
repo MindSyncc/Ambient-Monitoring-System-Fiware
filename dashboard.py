@@ -15,7 +15,7 @@ DASH_HOST = "0.0.0.0"  # Allows access from any IP
 
 # Function to retrieve data from the API for a specific attribute and limit the number of records
 def get_data(attribute, lastN):
-    url = f"http://{IP_ADDRESS}:{PORT_STH}/STH/v1/contextEntities/type/Lamp/id/urn:ngsi-ld:Lamp:001/attributes/{attribute}?lastN={lastN}"
+    url = f"http://{IP_ADDRESS}:{PORT_STH}/STH/v1/contextEntities/type/Lamp/id/urn:ngsi-ld:Lamp:002/attributes/{attribute}?lastN={lastN}"
     headers = {
         'fiware-service': 'smart',
         'fiware-servicepath': '/'
