@@ -4,6 +4,7 @@ Este projeto implementa um sistema de monitoramento de ambiente usando um ESP32 
 
 <h2>Componentes do Sistema</h2>
 <h3>Hardware</h3>
+<img src="https://i.imgur.com/WSbIYba.png"/>
 
 * DHT22: Sensor responsável por capturar dados de temperatura e umidade.
 * LDR: Sensor de luminosidade que monitora a intensidade de luz ambiente.
