@@ -12,11 +12,12 @@ Este projeto implementa um sistema de monitoramento de ambiente usando um ESP32 
 * Breadboard (opcional): Para uma conexão menos concentrada dos sensores com o ESP32.
 
 <h3>Software</h3>
-O núcleo do projeto se encontra em uma máquina virtual do Microsoft Azure, e é orquestrado pela plataforma Fiware, mais especificamente, uma versão modificada do Fiware, o Fiware Descomplicado, elaborada pelo nosso Professor Fábio Henrique Cabrini e sua equipe, segue link da documentação detalhada da versão do Fiware utilizada:
+O núcleo do projeto está hospedado em uma máquina virtual no Microsoft Azure, e utiliza a plataforma FIWARE, especificamente uma versão modificada chamada FIWARE Descomplicado, criada pelo professor Fábio Henrique Cabrini e sua equipe. Esta plataforma facilita a integração e gerenciamento de dispositivos IoT em um ambiente FIWARE, utilizando vários serviços contidos em diferentes contêineres Docker. Segue link da documentação detalhada da versão do Fiware utilizada:
 <p>https://github.com/fabiocabrini/fiware</p>
 GitHub do criador (Fábio Henrique Cabrini):
 <p>https://github.com/fabiocabrini/</p>
-os contêiners Docker inicializados através do Docker Compose são os responsáveis pela execução da plataforma através dos contêiners, estes são:
+O projeto utiliza Docker e Docker Compose para gerenciar e orquestrar os serviços da plataforma FIWARE. O Docker permite a contêinerização dos aplicativos, garantindo que funcionem de forma consistente em diferentes ambientes. O Docker Compose simplifica o gerenciamento de múltiplos contêineres, permitindo que todos os serviços sejam definidos e executados a partir de um único arquivo de configuração.
+os contêiners Docker inicializados através do Docker Compose são:
 
 <h4>Iot Agent MQTT</h4>
 
